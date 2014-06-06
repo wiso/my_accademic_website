@@ -11,7 +11,7 @@ a{
 	color:inherit;
 }
 a:hover{
-	text-decoration:none;
+	text-decoration:underline;
 	color:inherit;
 }
 
@@ -146,6 +146,18 @@ figure{display:block;}
 	height:auto;
 	margin: 0 auto;
 }
+.logo-box h1{
+        font:112px/116px BebasNeue, Helvetica, sans-serif;
+	text-transform:uppercase;
+	text-align:center;
+      	display:block;
+	margin: 0 0 19px;
+	font-weight:normal;
+	text-align:center;
+	color: #fff;
+	vertical-align:top;
+	border-bottom:7px solid #33cccc;
+}
 .logo-box .slogan{
 	display:block;
 	margin:0 auto;
@@ -185,6 +197,7 @@ figure{display:block;}
 #nav a{color:#fff;}
 #nav a:hover{
 	margin:0;
+	text-decoration:none;
 	border-bottom:3px solid #33cccc;
 }
 #main{
@@ -238,6 +251,12 @@ figure{display:block;}
 	border-bottom:5px solid #33cccc;
 }
 .area header p{margin:0;}
+.area a{
+	color:#3cc;
+}
+.area a:hover{
+	text-decoration: underline;
+}
 .post-holder{overflow:hidden;}
 .post{
 	overflow:hidden;
@@ -285,12 +304,15 @@ figure{display:block;}
 	margin:-20px 0 43px;
 	border-bottom:1px solid #e3e2e2;
 }
+.shedule-list a{
+        color:inherit;
+}
 .shedule-list dt{
 	float:left;
 	border-top:1px solid #e3e2e2;
 	font-size:18px;
 	line-height:28px;
-	width:200px;
+	width:250px;
 	padding:19px 3px 17px 15px;
 }
 .shedule-list dd{
@@ -300,7 +322,6 @@ figure{display:block;}
 	margin:0;
 	padding:19px 0 17px;
 	color:#000;
-	text-transform:uppercase;
 	font:28px/30px BebasNeue, Helvetica, sans-serif;
 }
 .location-box{
