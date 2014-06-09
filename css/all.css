@@ -282,7 +282,7 @@ figure{display:block;}
 }
 .post h3{
 	margin:0;
-	font:bold 26px/28px BebasNeue, Helvetica, sans-serif;
+	font: 26px/28px BebasNeue, Helvetica, sans-serif;
 	text-transform:uppercase;
 	color:#000;
 }
