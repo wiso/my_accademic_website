@@ -282,7 +282,7 @@ figure{display:block;}
 }
 .post h3{
 	margin:0;
-	font: 26px/28px BebasNeue, Helvetica, sans-serif;
+	font:bold 26px/28px BebasNeue, Helvetica, sans-serif;
 	text-transform:uppercase;
 	color:#000;
 }
@@ -422,6 +422,7 @@ figure{display:block;}
 #footer .holder{
 	max-width:830px;
 	margin:0 auto;
+	display:inline-block;
 }
 #footer .importantly-box{
 	color:#fff;
@@ -558,7 +559,33 @@ figure{display:block;}
 	#footer{padding:54px 17px 50px;}
 	#footer .importantly-box{margin-bottom:74px;}
 }
+
+#social
+{
+    display: block;
+    margin: 30px;
+}
+
+#social ul
+{
+    list-style:none;
+    padding: 0px;
+}
+
+#social li {
+    float:left;
+    padding:0px;
+    padding-right:0px;
+    border:0px;
+    margin:0px;
+}
+
+#social img {
+    width:70%;
+}
+
 @media only screen and (max-width: 380px) {
 	.area h2{font-size:40px;line-height:36px;}
 	.promo-area{font-size:35px;line-height:38px;}
 	#header .btn-holder{text-align:center;margin:0 0 70px;}
+
