@@ -324,6 +324,35 @@ figure{display:block;}
 	color:#000;
 	font:28px/30px BebasNeue, Helvetica, sans-serif;
 }
+
+.thesis-list{
+	overflow:hidden;
+	margin:-20px 0 43px;
+	border-bottom:1px solid #e3e2e2;
+}
+.thesis-list a{
+        color:inherit;
+}
+.thesis-list dt{
+	float:left;
+	border-top:1px solid #e3e2e2;
+	font-size:18px;
+	line-height:28px;
+	width:250px;
+	padding:15px 10px 14px 15px;
+}
+.thesis-list dd{
+	border-top:1px solid #e3e2e2;
+	display:block;
+	overflow:hidden;
+	margin:0;
+	padding:15px 0 14px;
+	color:rgb(196, 4, 4);
+	font:16px/20px Helvetica, sans-serif;
+}
+
+
+
 .location-box{
 	overflow:hidden;
 	width:100%;
@@ -519,6 +548,26 @@ figure{display:block;}
 		border-width:0 0 1px;
 		padding:0 0 19px;
 	}
+
+	.thesis-list{
+		border:none;
+		padding:1px 0 0;
+		margin:-16px 0 64px;
+		text-align:center;
+	}
+	.thesis-list dt{
+		width:100%;
+		text-align:center;
+		padding:15px 0 0;
+		margin:-1px 0 0;
+		float:none;
+	}
+	.thesis-list dd{
+		border:1px solid #e3e2e2;
+		border-width:0 0 1px;
+		padding:0 0 15px;
+	}
+
 	.location-box{
 		margin-top:-18px;
 		margin-bottom:68px;
