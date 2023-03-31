@@ -108,7 +108,7 @@
         return xhr;
       }
 
-      $.getJSON('http://rgw.fisica.unimi.it/localgroupdisk-data/data.json?AWSAccessKeyId=M06HBTUGIKXVXYH1RES6&Signature=ZKxl9tvt71PRKAB76%2FFhB914aBE%3D&Expires=1688888444', function (data) {
+      $.getJSON('https://rgw.fisica.unimi.it/localgroupdisk-data/data.json?AWSAccessKeyId=M06HBTUGIKXVXYH1RES6&Signature=ZKxl9tvt71PRKAB76%2FFhB914aBE%3D&Expires=1688888444', function (data) {
 
         (function () {
 
@@ -136,7 +136,7 @@
         });
 
 
-      $.getJSON("http://rgw.fisica.unimi.it/localgroupdisk-data/data_scatter.json?AWSAccessKeyId=M06HBTUGIKXVXYH1RES6&Signature=%2BH1BJhI%2BoOyaAjEFWci6uPGgazQ%3D&Expires=1688891789", function (data) {
+      $.getJSON("https://rgw.fisica.unimi.it/localgroupdisk-data/data_scatter.json?AWSAccessKeyId=M06HBTUGIKXVXYH1RES6&Signature=%2BH1BJhI%2BoOyaAjEFWci6uPGgazQ%3D&Expires=1688891789", function (data) {
         $.each(data, function (key, val) {
           $("#myTable").find('tbody')
             .append($('<tr>')
@@ -153,7 +153,7 @@
         });
 
 
-      $.getJSON("http://rgw.fisica.unimi.it/localgroupdisk-data/data_pie.json?AWSAccessKeyId=M06HBTUGIKXVXYH1RES6&Signature=zw13YoesLxy8tdVfnd7BEmPJqHw%3D&Expires=1688891751", function (data) {
+      $.getJSON("https://rgw.fisica.unimi.it/localgroupdisk-data/data_pie.json?AWSAccessKeyId=M06HBTUGIKXVXYH1RES6&Signature=zw13YoesLxy8tdVfnd7BEmPJqHw%3D&Expires=1688891751", function (data) {
         var sum = data["data"][0]["values"].reduce(add, 0);
 
         function add(a, b) {
