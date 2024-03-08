@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Istruzioni per l'uso del software Hypatia</title>
+      <style>
+            body {
+                  font-family: 'Arial', sans-serif;
+                  max-width: 600px;
+                  margin: 30px auto;
+                  line-height: 1.6;
+                  padding: 20px;
+                  background-color: #f8f8f8;
+            }
+
+            h1 {
+                  color: #333;
+            }
+
+            p {
+                  color: #555;
+            }
+
+            code {
+                  background-color: #f0f0f0;
+                  padding: 3px 6px;
+                  border-radius: 3px;
+                  font-family: 'Courier New', monospace;
+            }
+
+            a {
+                  color: #007bff;
+            }
+
+            .additional-text {
+                  margin-top: 20px;
+            }
+      </style>
+</head>
+
+<body>
+      <h1>Setup di <a href="http://hypatia.phys.uoa.gr/Downloads/" target="_blank">Hypatia</a></h1>
+
+      <h2>Software</h2>
+      <p>Apri un terminale e copia-incolla i seguenti comandi:</p>
+      <pre><code>cp -r /temporanea/Hypatia_7.4/ .
+cd Hypatia_7.4
+./HYPATIA_for_Linux.sh</code></pre>
+      <h2>Dati</h2>
+      <ol>
+            <li>Scarica i dati degli eventi da <a href="http://cernmasterclass.uio.no/datasets/"
+                        target="_blank">cernmasterclass.uio.no/datasets/</a>.</li>
+
+            <li>Trova la riga per Milano e scegli il primo dataset. Scarica il file ZIP corrispondente al nome del
+                  gruppo.
+            </li>
+
+            <li>Estrai il file e apri il primo evento in Hypatia.</li>
+      </ol>
+
+      <h2>Carica i risultati</h2>
+      <ol>
+            <li>Una volta completato, carica i risultati:</li>
+            <code>Da Hypatia: File → Export Invariant Masses</code>
+
+            <li>Carica i risultati su <a href="http://cernmasterclass.uio.no/OPloT/"
+                        target="_blank">cernmasterclass.uio.no/OPloT/</a> (seleziona "student").</li>
+      </ol>
+
+      <p>Per il caricamento, utilizza le seguenti credenziali:<br>
+            <strong>Username:</strong> ippog<br>
+            <strong>Password:</strong> imc
+      </p>
+
+      <div class="additional-text">
+            <p><strong>Scopo dell’esercizio:</strong></p>
+            <p>Lo scopo dell’esercizio è di catalogare gli eventi per cercare decadimenti interessanti: Z → ee, Z → μμ,
+                  H → γγ, H → ZZ, ...</p>
+            <p>Per fare questo dobbiamo iniziare identificando i segnali del rilevatore come particelle e/γ/μ. </p>
+
+            <p>Cerchiamo eventi con una coppia di fotoni oppure una coppia di elettroni (di carica opposta, un elettrone
+                  e un
+                  positrone), una coppia di muoni (di carica opposta) oppure due coppie di leptoni
+                  (e<sup>+</sup>e<sup>-</sup> / e<sup>+</sup>e<sup>-</sup> / e<sup>+</sup>e<sup>-</sup> +
+                  μ<sup>+</sup>μ<sup>-</sup> / μ<sup>+</sup>μ<sup>-</sup> + μ<sup>+</sup>μ<sup>-</sup>).</p>
+
+            <p><strong>Selezione consigliata:</strong></p>
+            <ul>
+                  <li>p<sub>T</sub> > 5 GeV (o più)</li>
+                  <li>controllare tracce doppie (da fotoni convertiti)</li>
+                  <li>controllare massa invariante tracce doppie: massa piccola ⇒ elettroni dalla conversione di un
+                        fotone</li>
+                  <li>2 hit nei pixel e/o 7 hit nell’SCT</li>
+                  <li>controllare sia la vista XY (alto sinistra) che la vista Rz (basso sinistra)</li>
+                  <li>attenzione che la vista XY mostra solo il barrel (la parte centrale del rivelatore nella vista Rz)
+                  </li>
+            </ul>
+      </div>
+
+      <div class="additional-text">
+            <p><strong>Tutorial Hypatia:</strong></p>
+            <a href="http://cernmasterclass.uio.no/2015/material/cheat-sheet_en.pdf"
+                  target="_blank">http://cernmasterclass.uio.no/2015/material/cheat-sheet_en.pdf</a>
+
+            <p><strong>Esempi:</strong></p>
+            <a href="http://cernmasterclass.uio.no/2015/material/Zpath2015-SignalEvents.pdf"
+                  target="_blank">http://cernmasterclass.uio.no/2015/material/Zpath2015-SignalEvents.pdf</a>
+      </div>
+
+      <script>
+            function copyToClipboard(text) {
+                  const textarea = document.createElement('textarea');
+                  textarea.value = text;
+                  document.body.appendChild(textarea);
+                  textarea.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(textarea);
+                  alert('Comando copiato: ' + text);
+            }
+      </script>
+</body>
+
+</html>
