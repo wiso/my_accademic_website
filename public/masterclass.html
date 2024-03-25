@@ -38,16 +38,51 @@
                   margin-top: 20px;
             }
       </style>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-coy.min.css" rel="stylesheet" />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/toolbar/prism-toolbar.min.css"
+            rel="stylesheet" />
+      <script>
+            // Add click event listener to each copy code button
+            document.querySelectorAll(".copy-code-button").forEach(function (button) {
+                  button.addEventListener("click", function () {
+                        // Get the code element
+                        var codeElement = this.parentElement.querySelector("code");
+
+                        // Create a temporary textarea to copy the code
+                        var textarea = document.createElement("textarea");
+                        textarea.value = codeElement.innerText;
+                        document.body.appendChild(textarea);
+
+                        // Select and copy the code
+                        textarea.select();
+                        document.execCommand("copy");
+
+                        // Remove the temporary textarea
+                        document.body.removeChild(textarea);
+
+                        // Change the button text to "Copied!" for a short duration
+                        var originalText = this.innerText;
+                        this.innerText = "Copied!";
+                        setTimeout(function () {
+                              button.innerText = originalText;
+                        }, 1500);
+                  });
+            });
+      </script>
 </head>
 
 <body>
+
       <h1>Setup di <a href="http://hypatia.phys.uoa.gr/Downloads/" target="_blank">Hypatia</a></h1>
 
       <h2>Software</h2>
       <p>Apri un terminale e copia-incolla i seguenti comandi:</p>
-      <pre><code>cp -r /temporanea/Hypatia_7.4/ .
+      <div>
+            <pre>
+<code class="language-bash" data-prismjs-copy="Copy the snippet">cp -r /temporanea/Hypatia_7.4/ .
 cd Hypatia_7.4
 ./HYPATIA_for_Linux.sh</code></pre>
+      </div>
       <h2>Dati</h2>
       <ol>
             <li>Scarica i dati degli eventi da <a href="http://cernmasterclass.uio.no/datasets/"
@@ -109,17 +144,12 @@ cd Hypatia_7.4
                   target="_blank">http://cernmasterclass.uio.no/2015/material/Zpath2015-SignalEvents.pdf</a>
       </div>
 
-      <script>
-            function copyToClipboard(text) {
-                  const textarea = document.createElement('textarea');
-                  textarea.value = text;
-                  document.body.appendChild(textarea);
-                  textarea.select();
-                  document.execCommand('copy');
-                  document.body.removeChild(textarea);
-                  alert('Comando copiato: ' + text);
-            }
-      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+      <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/toolbar/prism-toolbar.min.js"></script>
+      <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
 </body>
 
 </html>
