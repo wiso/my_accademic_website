@@ -1,53 +1,56 @@
 body {
-	margin: 0;
-	color: #999;
-	font: 11px Helvetica, Arial, sans-serif;
-	background: #fff;
-	min-width: 320px;
+    margin: 0;
+    color: #999;
+    font: 11px Helvetica, Arial, sans-serif;
+    background: #fff;
+    min-width: 320px;
 }
 
 img {
-	border-style: none;
+    border-style: none;
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+    text-decoration: none;
+    color: inherit;
+    
 }
 
-a:hover {
-	text-decoration: underline;
-	color: inherit;
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: inherit;
 }
 
 .promo-area a {
-	text-decoration: none;
-	color: red;
+    text-decoration: none;
+    color: red;
 }
 
-.promo-area a:hover {
-	text-decoration: underline;
-	color: red;
+.promo-area a:hover,
+.promo-area a:focus {
+    text-decoration: underline;
+    color: red;
 }
 
 input,
 textarea,
 select {
-	font: 100% arial, sans-serif;
-	vertical-align: middle;
-	color: #000;
+    font: 100% arial, sans-serif;
+    vertical-align: middle;
+    color: #000;
 }
 
 form,
 fieldset {
-	margin: 0;
-	padding: 0;
-	border-style: none;
+    margin: 0;
+    padding: 0;
+    border-style: none;
 }
 
 figure {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 header,
@@ -57,749 +60,749 @@ section,
 hgroup,
 nav,
 figure {
-	display: block;
+    display: block;
 }
 
 @font-face {
-	font-family: BebasNeue;
-	src: url(../fonts/BebasNeue.otf);
+    font-family: BebasNeue;
+    src: url(../fonts/BebasNeue.otf);
 }
 
 #header {
-	background: #222;
-	color: #fff;
-	font-size: 14px;
-	line-height: 16px;
-	position: relative;
-	padding: 0 0 13px;
-	z-index: 2;
+    background: #222;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    position: relative;
+    padding: 0 0 13px;
+    z-index: 2;
 }
 
 #header:after {
-	height: 0;
-	clear: both;
-	content: '';
-	display: block;
+    height: 0;
+    clear: both;
+    content: '';
+    display: block;
 }
 
 .panel {
-	overflow: hidden;
-	width: 100%;
-	padding: 0 0 150px;
-	background: #222;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 0 150px;
+    background: #222;
 }
 
 .pastpanel {
-	overflow: hidden;
-	width: 100%;
-	padding: 0 0 150px;
-	background: #222;
-	text-align: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 0 150px;
+    background: #222;
+    text-align: center;
 }
 
 #announcement {
-	width: 100%;
-	background: #eee;
-	text-align: center;
-	padding: 10px 0;
-	color: #666;
+    width: 100%;
+    background: #eee;
+    text-align: center;
+    padding: 10px 0;
+    color: #666;
 }
 
 #announcement a {
-	color: #0093d2;
+    color: #0093d2;
 }
 
 #announcement a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .panel-holder {
-	overflow: hidden;
-	padding: 12px 85px 11px;
-	max-width: 800px;
-	margin: 0 auto;
+    overflow: hidden;
+    padding: 12px 85px 11px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 #header .date {
-	float: left;
-	text-transform: uppercase;
-	font-style: normal;
-	padding: 8px 0 0;
+    float: left;
+    text-transform: uppercase;
+    font-style: normal;
+    padding: 8px 0 0;
 }
 
 #header .pastdate {
-	display: inline-block;
-	vertical-align: top;
-	float: none;
-	text-transform: uppercase;
-	font-style: normal;
-	padding: 8px 0 0;
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    text-transform: uppercase;
+    font-style: normal;
+    padding: 8px 0 0;
 }
 
 #header .btn {
-	float: right;
-	-webkit-border-radius: 14px;
-	border-radius: 14px;
-	padding: 7px 35px;
-	color: #222;
-	font: 22px/26px BebasNeue, Helvetica, sans-serif;
-	text-transform: uppercase;
-	background: #33cccc;
-	position: fixed;
-	top: 8px;
-	left: 50%;
-	margin: 0 0 0 275px;
-	z-index: 90;
+    float: right;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+    padding: 7px 35px;
+    color: #222;
+    font: 22px/26px BebasNeue, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background: #33cccc;
+    position: fixed;
+    top: 8px;
+    left: 50%;
+    margin: 0 0 0 275px;
+    z-index: 90;
 }
 
 #header .btn:hover {
-	background: #6ef9f9;
+    background: #6ef9f9;
 }
 
 .logo-box {
-	max-width: 622px;
-	margin: 0px auto 203px;
-	color: #fff;
-	font-size: 18px;
-	line-height: 22px;
-	position: relative;
+    max-width: 622px;
+    margin: 0px auto 203px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    position: relative;
 }
 
 .logo-box img {
-	display: block;
-	width: 90%;
-	height: auto;
-	margin: 0 auto;
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
 }
 
 .logo-box h1 {
-	font: 112px/116px BebasNeue, Helvetica, sans-serif;
-	text-transform: uppercase;
-	text-align: center;
-	display: block;
-	margin: 0 0 19px;
-	font-weight: normal;
-	text-align: center;
-	color: #fff;
-	vertical-align: top;
-	border-bottom: 7px solid #33cccc;
+    font: 112px/116px BebasNeue, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin: 0 0 19px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    vertical-align: top;
+    border-bottom: 7px solid #33cccc;
 }
 
 .logo-box .slogan {
-	display: block;
-	margin: 0 auto;
-	font-weight: normal;
-	text-align: center;
-	padding: 12px 0 5px;
-	color: #fff;
+    display: block;
+    margin: 0 auto;
+    font-weight: normal;
+    text-align: center;
+    padding: 12px 0 5px;
+    color: #fff;
 }
 
 .logo-box .slogan strong {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 #nav {
-	width: 100%;
-	font-size: 16px;
-	line-height: 18px;
-	font-weight: bold;
-	text-align: center;
-	text-transform: uppercase;
-	background: #222;
-	padding: 18px 0 9px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background: #222;
+    padding: 18px 0 9px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 #nav ul {
-	list-style: none;
-	padding: 0 85px;
-	margin: 0 auto;
-	max-width: 830px;
-	overflow: hidden;
+    list-style: none;
+    padding: 0 85px;
+    margin: 0 auto;
+    max-width: 830px;
+    overflow: hidden;
 }
 
 #nav li {
-	display: inline-block;
-	vertical-align: top;
-	background: url(../images/separator-nav.png) no-repeat 0 2px;
-	padding: 0 11px 11px 19px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../images/separator-nav.png) no-repeat 0 2px;
+    padding: 0 11px 11px 19px;
 }
 
 #nav li:first-child {
-	background: none;
+    background: none;
 }
 
 #nav a {
-	color: #fff;
+    color: #fff;
 }
 
 #nav a:hover {
-	margin: 0;
-	text-decoration: none;
-	border-bottom: 3px solid #33cccc;
+    margin: 0;
+    text-decoration: none;
+    border-bottom: 3px solid #33cccc;
 }
 
 #main {
-	overflow: hidden;
-	width: 100%;
-	font-size: 18px;
-	line-height: 22px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .promo-area {
-	overflow: hidden;
-	padding: 108px 85px 112px;
-	background: #33cccc;
-	color: #222;
-	font: 42px/46px BebasNeue, Helvetica, sans-serif;
-	text-transform: uppercase;
-	text-align: center;
-	margin: 0 0 75px;
+    overflow: hidden;
+    padding: 108px 85px 112px;
+    background: #33cccc;
+    color: #222;
+    font: 42px/46px BebasNeue, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 75px;
 }
 
 .promo-area .holder {
-	margin: 0 auto;
-	max-width: 760px;
+    margin: 0 auto;
+    max-width: 760px;
 }
 
 .promo-area p {
-	margin: 0;
+    margin: 0;
 }
 
 .promo-area p.special {
-	margin: 25px 0px 0;
-	font: 18px/21px Helvetica, sans-serif;
-	text-transform: none;
+    margin: 25px 0px 0;
+    font: 18px/21px Helvetica, sans-serif;
+    text-transform: none;
 }
 
 .area {
-	overflow: hidden;
-	padding: 0 85px;
-	margin: 0 0 57px;
+    overflow: hidden;
+    padding: 0 85px;
+    margin: 0 0 57px;
 }
 
 .area .holder {
-	overflow: hidden;
-	margin: 0 auto;
-	max-width: 830px;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 830px;
 }
 
 .area header {
-	margin: 0 auto 60px;
-	max-width: 450px;
-	text-align: center;
+    margin: 0 auto 60px;
+    max-width: 450px;
+    text-align: center;
 }
 
 .area h2 {
-	margin: 0 0 19px;
-	font: 60px/56px BebasNeue, Helvetica, sans-serif;
-	color: #000;
-	display: inline-block;
-	vertical-align: top;
-	text-transform: uppercase;
-	border-bottom: 5px solid #33cccc;
+    margin: 0 0 19px;
+    font: 60px/56px BebasNeue, Helvetica, sans-serif;
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    border-bottom: 5px solid #33cccc;
 }
 
 .area header p {
-	margin: 0;
+    margin: 0;
 }
 
 .area a {
-	color: #3cc;
+    color: #3cc;
 }
 
 .area a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .post-holder {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .post {
-	overflow: hidden;
-	width: 100%;
-	font-size: 16px;
-	line-height: 19px;
-	margin: 0 0 45px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 45px;
 }
 
 .post .photo-box {
-	float: left;
-	overflow: hidden;
-	-webkit-border-radius: 83px;
-	border-radius: 83px;
-	margin: 0 60px 0 0;
+    float: left;
+    overflow: hidden;
+    -webkit-border-radius: 83px;
+    border-radius: 83px;
+    margin: 0 60px 0 0;
 }
 
 .post .photo-box img {
-	display: block;
-	-webkit-border-radius: 83px;
-	border-radius: 83px;
+    display: block;
+    -webkit-border-radius: 83px;
+    border-radius: 83px;
 }
 
 .post .text-holder {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .post h3 {
-	margin: 0;
-	font: bold 26px/28px BebasNeue, Helvetica, sans-serif;
-	text-transform: uppercase;
-	color: #000;
+    margin: 0;
+    font: bold 26px/28px BebasNeue, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #000;
 }
 
 .post .info {
-	display: block;
-	font-size: 16px;
-	line-height: 18px;
-	margin: 0 0 23px;
+    display: block;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 0 23px;
 }
 
 .post .info a {
-	color: #666666;
+    color: #666666;
 }
 
 .post .info a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .post p {
-	margin: 0;
+    margin: 0;
 }
 
 .shedule-list {
-	overflow: hidden;
-	margin: -20px 0 43px;
-	border-bottom: 1px solid #e3e2e2;
+    overflow: hidden;
+    margin: -20px 0 43px;
+    border-bottom: 1px solid #e3e2e2;
 }
 
 .shedule-list a {
-	color: inherit;
+    color: inherit;
 }
 
 .shedule-list dt {
-	float: left;
-	border-top: 1px solid #e3e2e2;
-	font-size: 18px;
-	line-height: 28px;
-	width: 250px;
-	padding: 19px 3px 17px 15px;
+    float: left;
+    border-top: 1px solid #e3e2e2;
+    font-size: 18px;
+    line-height: 28px;
+    width: 250px;
+    padding: 19px 3px 17px 15px;
 }
 
 .shedule-list dd {
-	border-top: 1px solid #e3e2e2;
-	display: block;
-	overflow: hidden;
-	margin: 0;
-	padding: 19px 0 17px;
-	color: #000;
-	font: 28px/30px BebasNeue, Helvetica, sans-serif;
+    border-top: 1px solid #e3e2e2;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 19px 0 17px;
+    color: #000;
+    font: 28px/30px BebasNeue, Helvetica, sans-serif;
 }
 
 .thesis-list {
-	overflow: hidden;
-	margin: -20px 0 43px;
-	border-bottom: 1px solid #e3e2e2;
+    overflow: hidden;
+    margin: -20px 0 43px;
+    border-bottom: 1px solid #e3e2e2;
 }
 
 .thesis-list a {
-	color: inherit;
+    color: inherit;
 }
 
 .thesis-list dt {
-	float: left;
-	border-top: 1px solid #e3e2e2;
-	font-size: 18px;
-	line-height: 28px;
-	width: 250px;
-	padding: 15px 10px 14px 15px;
+    float: left;
+    border-top: 1px solid #e3e2e2;
+    font-size: 18px;
+    line-height: 28px;
+    width: 250px;
+    padding: 15px 10px 14px 15px;
 }
 
 .thesis-list dd {
-	border-top: 1px solid #e3e2e2;
-	display: block;
-	overflow: hidden;
-	margin: 0;
-	padding: 15px 0 14px;
-	color: rgb(196, 4, 4);
-	font: 16px/20px Helvetica, sans-serif;
+    border-top: 1px solid #e3e2e2;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 15px 0 14px;
+    color: rgb(196, 4, 4);
+    font: 16px/20px Helvetica, sans-serif;
 }
 
 
 
 .location-box {
-	overflow: hidden;
-	width: 100%;
-	font-size: 16px;
-	line-height: 19px;
-	margin: -12px 0 50px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    margin: -12px 0 50px;
 }
 
 .location-box .map-box {
-	float: right;
-	max-width: 525px;
-	margin: 0 0 0 30px;
-	width: 50%;
+    float: right;
+    max-width: 525px;
+    margin: 0 0 0 30px;
+    width: 50%;
 }
 
 .location-box .map-box img {
-	display: block;
-	width: 100%;
-	height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .location-box .text-holder {
-	overflow: hidden;
-	padding: 2px 0 0;
-	float: left;
-	width: 40%;
+    overflow: hidden;
+    padding: 2px 0 0;
+    float: left;
+    width: 40%;
 }
 
 .location-box h3 {
-	margin: 0 0 10px;
-	color: #000;
-	font: bold 26px/28px BebasNeue, Helvetica, sans-serif;
+    margin: 0 0 10px;
+    color: #000;
+    font: bold 26px/28px BebasNeue, Helvetica, sans-serif;
 }
 
 .location-box address {
-	margin: 0 0 16px;
-	display: block;
-	font-style: normal;
+    margin: 0 0 16px;
+    display: block;
+    font-style: normal;
 }
 
 .location-box .link {
-	padding: 0 0 0 16px;
-	display: inline-block;
-	vertical-align: top;
-	color: #666;
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
-	background: url(../images/ico-location.png) no-repeat 2px 0;
+    padding: 0 0 0 16px;
+    display: inline-block;
+    vertical-align: top;
+    color: #666;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    background: url(../images/ico-location.png) no-repeat 2px 0;
 }
 
 .col-holder {
-	overflow: hidden;
-	width: 100%;
-	margin: -13px 0 0;
-	font-size: 16px;
-	line-height: 19px;
+    overflow: hidden;
+    width: 100%;
+    margin: -13px 0 0;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .col-holder .col {
-	overflow: hidden;
-	width: 100%;
-	margin: 0 0 45px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 0 45px;
 }
 
 .col .image-box {
-	float: left;
-	overflow: hidden;
-	background: #33cccc;
-	margin: 0 60px 0 0;
+    float: left;
+    overflow: hidden;
+    background: #33cccc;
+    margin: 0 60px 0 0;
 }
 
 .col .image-box img {
-	display: block;
-	max-width: 380px;
-	height: auto;
+    display: block;
+    max-width: 380px;
+    height: auto;
 }
 
 .col .host-text {
-	overflow: hidden;
-	text-align: left;
+    overflow: hidden;
+    text-align: left;
 }
 
 .col .heading {
-	overflow: hidden;
-	margin: 0 0 22px;
+    overflow: hidden;
+    margin: 0 0 22px;
 }
 
 .col h3 {
-	margin: 0 0 6px;
-	text-transform: uppercase;
-	color: #000;
-	font: bold 26px/28px BebasNeue, Helvetica, sans-serif;
+    margin: 0 0 6px;
+    text-transform: uppercase;
+    color: #000;
+    font: bold 26px/28px BebasNeue, Helvetica, sans-serif;
 }
 
 .col .link-holder {
-	display: inline-block;
-	vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .col .link-holder img {
-	display: block;
+    display: block;
 }
 
 .col p {
-	margin: 0;
+    margin: 0;
 }
 
 #footer {
-	background: #222;
-	padding: 68px 85px 16px;
-	text-align: center;
-	overflow: hidden;
-	font-size: 14px;
-	line-height: 16px;
+    background: #222;
+    padding: 68px 85px 16px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 #footer .holder {
-	max-width: 830px;
-	margin: 0 auto;
-	display: inline-block;
+    max-width: 830px;
+    margin: 0 auto;
+    display: inline-block;
 }
 
 #footer .importantly-box {
-	color: #fff;
-	text-transform: uppercase;
-	font: 28px/36px BebasNeue, Helvetica, sans-serif;
-	margin: 0 0 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font: 28px/36px BebasNeue, Helvetica, sans-serif;
+    margin: 0 0 60px;
 }
 
 #footer p {
-	margin: 0;
+    margin: 0;
 }
 
 #footer p a {
-	color: #999;
+    color: #999;
 }
 
 #footer .btn {
-	-webkit-border-radius: 14px;
-	border-radius: 14px;
-	padding: 7px 35px;
-	color: #222;
-	font: 22px/26px BebasNeue, Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
-	background: #33cccc;
-	display: inline-block;
-	vertical-align: top;
-	margin: 0 0 74px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+    padding: 7px 35px;
+    color: #222;
+    font: 22px/26px BebasNeue, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background: #33cccc;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 74px;
 }
 
 #footer .btn:hover {
-	background: #6ef9f9;
+    background: #6ef9f9;
 }
 
 .credit a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 800px) {
-	.panel {
-		text-align: center;
-		padding: 0 0 3px;
-	}
+    .panel {
+        text-align: center;
+        padding: 0 0 3px;
+    }
 
-	.panel-holder {
-		padding: 12px 17px 11px;
-	}
+    .panel-holder {
+        padding: 12px 17px 11px;
+    }
 
-	#header .date {
-		display: inline-block;
-		vertical-align: top;
-		float: none;
-	}
+    #header .date {
+        display: inline-block;
+        vertical-align: top;
+        float: none;
+    }
 
-	#header .btn-holder {
-		text-align: center;
-		margin: 0 0 130px;
-	}
+    #header .btn-holder {
+        text-align: center;
+        margin: 0 0 130px;
+    }
 
-	#header .btn {
-		position: static;
-		display: inline-block;
-		margin: 0 auto;
-		vertical-align: top;
-		float: none;
-	}
+    #header .btn {
+        position: static;
+        display: inline-block;
+        margin: 0 auto;
+        vertical-align: top;
+        float: none;
+    }
 
-	.logo-box {
-		font-size: 17px;
-		margin-bottom: 145px;
-	}
+    .logo-box {
+        font-size: 17px;
+        margin-bottom: 145px;
+    }
 
-	#nav ul {
-		padding: 0;
-	}
+    #nav ul {
+        padding: 0;
+    }
 
-	.promo-area {
-		font-size: 40px;
-		line-height: 44px;
-		padding: 97px 17px 103px;
-		margin-bottom: 103px
-	}
+    .promo-area {
+        font-size: 40px;
+        line-height: 44px;
+        padding: 97px 17px 103px;
+        margin-bottom: 103px
+    }
 
-	.area {
-		margin-bottom: 29px;
-		padding: 0 17px;
-	}
+    .area {
+        margin-bottom: 29px;
+        padding: 0 17px;
+    }
 
-	.area header {
-		margin-bottom: 54px;
-	}
+    .area header {
+        margin-bottom: 54px;
+    }
 
-	.post {
-		margin-bottom: 53px;
-	}
+    .post {
+        margin-bottom: 53px;
+    }
 
-	.post .photo-box {
-		float: none;
-		margin: 0 0 24px;
-	}
+    .post .photo-box {
+        float: none;
+        margin: 0 0 24px;
+    }
 
-	.post .photo-box img {
-		margin: 0 auto;
-	}
+    .post .photo-box img {
+        margin: 0 auto;
+    }
 
-	.post h3,
-	.post .info {
-		text-align: center;
-	}
+    .post h3,
+    .post .info {
+        text-align: center;
+    }
 
-	.post .text-holder {
-		max-width: 550px;
-		margin: 0 auto;
-		text-align: center;
-	}
+    .post .text-holder {
+        max-width: 550px;
+        margin: 0 auto;
+        text-align: center;
+    }
 
-	.shedule-list {
-		border: none;
-		padding: 1px 0 0;
-		margin: -16px 0 64px;
-		text-align: center;
-	}
+    .shedule-list {
+        border: none;
+        padding: 1px 0 0;
+        margin: -16px 0 64px;
+        text-align: center;
+    }
 
-	.shedule-list dt {
-		width: 100%;
-		text-align: center;
-		padding: 19px 0 0;
-		margin: -1px 0 0;
-		float: none;
-	}
+    .shedule-list dt {
+        width: 100%;
+        text-align: center;
+        padding: 19px 0 0;
+        margin: -1px 0 0;
+        float: none;
+    }
 
-	.shedule-list dd {
-		border: 1px solid #e3e2e2;
-		border-width: 0 0 1px;
-		padding: 0 0 19px;
-	}
+    .shedule-list dd {
+        border: 1px solid #e3e2e2;
+        border-width: 0 0 1px;
+        padding: 0 0 19px;
+    }
 
-	.thesis-list {
-		border: none;
-		padding: 1px 0 0;
-		margin: -16px 0 64px;
-		text-align: center;
-	}
+    .thesis-list {
+        border: none;
+        padding: 1px 0 0;
+        margin: -16px 0 64px;
+        text-align: center;
+    }
 
-	.thesis-list dt {
-		width: 100%;
-		text-align: center;
-		padding: 15px 0 0;
-		margin: -1px 0 0;
-		float: none;
-	}
+    .thesis-list dt {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0 0;
+        margin: -1px 0 0;
+        float: none;
+    }
 
-	.thesis-list dd {
-		border: 1px solid #e3e2e2;
-		border-width: 0 0 1px;
-		padding: 0 0 15px;
-	}
+    .thesis-list dd {
+        border: 1px solid #e3e2e2;
+        border-width: 0 0 1px;
+        padding: 0 0 15px;
+    }
 
-	.location-box {
-		margin-top: -18px;
-		margin-bottom: 68px;
-	}
+    .location-box {
+        margin-top: -18px;
+        margin-bottom: 68px;
+    }
 
-	.location-box .text-holder {
-		float: none;
-		width: 100%;
-		text-align: center;
-		margin: 0 0 27px;
-	}
+    .location-box .text-holder {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 27px;
+    }
 
-	.location-box .map-box {
-		float: none;
-		width: 100%;
-		max-width: 100%;
-		margin: 0;
-	}
+    .location-box .map-box {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
 
-	.location-box .map-box img {
-		margin: 0 auto;
-		max-width: 525px;
-	}
+    .location-box .map-box img {
+        margin: 0 auto;
+        max-width: 525px;
+    }
 
-	.col-holder {
-		margin-top: -25px;
-	}
+    .col-holder {
+        margin-top: -25px;
+    }
 
-	.col-holder .col {
-		float: none;
-		margin: 0 auto 54px;
-		max-width: 550px;
-	}
+    .col-holder .col {
+        float: none;
+        margin: 0 auto 54px;
+        max-width: 550px;
+    }
 
-	.col-holder .image-box {
-		float: none;
-		margin: 0 0 24px;
-	}
+    .col-holder .image-box {
+        float: none;
+        margin: 0 0 24px;
+    }
 
-	.col-holder .image-box img {
-		margin: 0 auto;
-		width: 100%;
-	}
+    .col-holder .image-box img {
+        margin: 0 auto;
+        width: 100%;
+    }
 
-	.col .host-text {
-		text-align: center;
-	}
+    .col .host-text {
+        text-align: center;
+    }
 
-	#footer {
-		padding: 54px 17px 50px;
-	}
+    #footer {
+        padding: 54px 17px 50px;
+    }
 
-	#footer .importantly-box {
-		margin-bottom: 74px;
-	}
+    #footer .importantly-box {
+        margin-bottom: 74px;
+    }
 }
 
 #social {
-	display: block;
-	margin: 30px;
+    display: block;
+    margin: 30px;
 }
 
 #social ul {
-	list-style: none;
-	padding: 0px;
+    list-style: none;
+    padding: 0px;
 }
 
 #social li {
-	float: left;
-	padding: 0px;
-	padding-right: 0px;
-	border: 0px;
-	margin: 0px;
+    float: left;
+    padding: 0px;
+    padding-right: 0px;
+    border: 0px;
+    margin: 0px;
 }
 
 #social img {
-	width: 70%;
+    width: 70%;
 }
 
 @media only screen and (max-width: 380px) {
-	.area h2 {
-		font-size: 40px;
-		line-height: 36px;
-	}
+    .area h2 {
+        font-size: 40px;
+        line-height: 36px;
+    }
 
-	.promo-area {
-		font-size: 35px;
-		line-height: 38px;
-	}
+    .promo-area {
+        font-size: 35px;
+        line-height: 38px;
+    }
 
-	#header .btn-holder {
-		text-align: center;
-		margin: 0 0 70px;
-	}
+    #header .btn-holder {
+        text-align: center;
+        margin: 0 0 70px;
+    }
