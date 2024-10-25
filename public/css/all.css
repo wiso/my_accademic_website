@@ -1,7 +1,13 @@
+:root {
+    --primary-color: #3cc;
+    --secondary-color: #222;
+    --font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
 body {
     margin: 0;
     color: #999;
-    font: 11px Helvetica, Arial, sans-serif;
+    font: 11px var(--font-family);
     background: #fff;
     min-width: 320px;
 }
@@ -13,7 +19,6 @@ img {
 a {
     text-decoration: none;
     color: inherit;
-    
 }
 
 a:hover,
@@ -36,7 +41,7 @@ a:focus {
 input,
 textarea,
 select {
-    font: 100% arial, sans-serif;
+    font: 100% var(--font-family);
     vertical-align: middle;
     color: #000;
 }
@@ -69,7 +74,7 @@ figure {
 }
 
 #header {
-    background: #222;
+    background: var(--secondary-color);
     color: #fff;
     font-size: 14px;
     line-height: 16px;
@@ -89,14 +94,14 @@ figure {
     overflow: hidden;
     width: 100%;
     padding: 0 0 150px;
-    background: #222;
+    background: var(--secondary-color);
 }
 
 .pastpanel {
     overflow: hidden;
     width: 100%;
     padding: 0 0 150px;
-    background: #222;
+    background: var(--secondary-color);
     text-align: center;
 }
 
@@ -144,10 +149,10 @@ figure {
     -webkit-border-radius: 14px;
     border-radius: 14px;
     padding: 7px 35px;
-    color: #222;
-    font: 22px/26px BebasNeue, Helvetica, sans-serif;
+    color: var(--secondary-color);
+    font: 22px/26px BebasNeue, var(--font-family);
     text-transform: uppercase;
-    background: #33cccc;
+    background: var(--primary-color);
     position: fixed;
     top: 8px;
     left: 50%;
@@ -185,7 +190,7 @@ figure {
     text-align: center;
     color: #fff;
     vertical-align: top;
-    border-bottom: 7px solid #33cccc;
+    border-bottom: 7px solid var(--primary-color);
 }
 
 .logo-box .slogan {
@@ -208,7 +213,7 @@ figure {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    background: #222;
+    background: var(--secondary-color);
     padding: 18px 0 9px;
     position: absolute;
     bottom: 0;
@@ -254,8 +259,8 @@ figure {
 .promo-area {
     overflow: hidden;
     padding: 108px 85px 112px;
-    background: #33cccc;
-    color: #222;
+    background: var(--primary-color);
+    color: var(--secondary-color);
     font: 42px/46px BebasNeue, Helvetica, sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -302,7 +307,7 @@ figure {
     display: inline-block;
     vertical-align: top;
     text-transform: uppercase;
-    border-bottom: 5px solid #33cccc;
+    border-bottom: 5px solid var(--primary-color);
 }
 
 .area header p {
@@ -310,7 +315,7 @@ figure {
 }
 
 .area a {
-    color: #3cc;
+    color: var(--primary-color);
 }
 
 .area a:hover {
@@ -501,7 +506,7 @@ figure {
 .col .image-box {
     float: left;
     overflow: hidden;
-    background: #33cccc;
+    background: var(--primary-color);
     margin: 0 60px 0 0;
 }
 
@@ -542,7 +547,7 @@ figure {
 }
 
 #footer {
-    background: #222;
+    background: var(--secondary-color);
     padding: 68px 85px 16px;
     text-align: center;
     overflow: hidden;
@@ -575,10 +580,10 @@ figure {
     -webkit-border-radius: 14px;
     border-radius: 14px;
     padding: 7px 35px;
-    color: #222;
+    color: var(--secondary-color);
     font: 22px/26px BebasNeue, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    background: #33cccc;
+    background: var(--primary-color);
     display: inline-block;
     vertical-align: top;
     margin: 0 0 74px;
