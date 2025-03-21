@@ -378,34 +378,6 @@ figure {
     margin: 0;
 }
 
-.shedule-list {
-    overflow: hidden;
-    margin: -20px 0 43px;
-    border-bottom: 1px solid #e3e2e2;
-}
-
-.shedule-list a {
-    color: inherit;
-}
-
-.shedule-list dt {
-    float: left;
-    border-top: 1px solid #e3e2e2;
-    font-size: 18px;
-    line-height: 28px;
-    width: 250px;
-    padding: 19px 3px 17px 15px;
-}
-
-.shedule-list dd {
-    border-top: 1px solid #e3e2e2;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 19px 0 17px;
-    color: #000;
-    font: 28px/30px BebasNeue, Helvetica, sans-serif;
-}
 
 .thesis-list {
     overflow: hidden;
@@ -675,27 +647,6 @@ figure {
         text-align: center;
     }
 
-    .shedule-list {
-        border: none;
-        padding: 1px 0 0;
-        margin: -16px 0 64px;
-        text-align: center;
-    }
-
-    .shedule-list dt {
-        width: 100%;
-        text-align: center;
-        padding: 19px 0 0;
-        margin: -1px 0 0;
-        float: none;
-    }
-
-    .shedule-list dd {
-        border: 1px solid #e3e2e2;
-        border-width: 0 0 1px;
-        padding: 0 0 19px;
-    }
-
     .thesis-list {
         border: none;
         padding: 1px 0 0;
@@ -811,3 +762,94 @@ figure {
         text-align: center;
         margin: 0 0 70px;
     }
+}
+
+
+.timeline-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.timeline-row {
+    gap: 60px;
+    display: flex;
+}
+
+.timeline-year-column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: normal;
+    width: 40%;
+    margin-left: 0px;
+}
+
+.timeline-year {
+    font-weight: 300;
+    color: #666;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+.timeline-year a {
+    color: @primary-color;
+}
+
+.timeline-content-column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: normal;
+    width: 85%;
+    margin-left: 20px;
+}
+
+.timeline-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    font: 28px/30px BebasNeue, Helvetica, sans-serif;
+    color: #000;
+}
+
+.timeline-title a {
+    color: inherit;
+}
+
+@media (max-width: 800px) {
+    .timeline-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+
+    .timeline-year-column {
+        
+        width: 100%;
+    }
+
+    .timeline-year {
+        margin-bottom: 0.5rem;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .timeline-content-column {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .timeline-title {
+        font-size: 28/30px;
+        text-align: center;
+        width: 100%;
+
+    }
+}
+
+*/
