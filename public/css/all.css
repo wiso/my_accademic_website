@@ -398,6 +398,37 @@ figure {
     padding: 15px 10px 14px 15px;
 }
 
+.thesis-list .degree-badge {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 1px 8px;
+    border: 1px solid #cfcfcf;
+    border-radius: 999px;
+    font-size: 0.78em;
+    line-height: 1.35;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color: inherit;
+    background: transparent;
+}
+
+.thesis-list .degree-badge-phd {
+    color: inherit;
+    border-color: #c7c7c7;
+}
+
+.thesis-list .degree-badge-mt {
+    color: inherit;
+    border-color: #cdcdcd;
+}
+
+.thesis-list .degree-badge-bt {
+    color: inherit;
+    border-color: #d2d2d2;
+}
+
 .thesis-list dd {
     border-top: 1px solid #e3e2e2;
     display: block;
