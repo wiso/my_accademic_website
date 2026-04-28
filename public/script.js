@@ -10,6 +10,12 @@ document.addEventListener("DOMContentLoaded", function () {
       const currentYear = this.getCurrentYear();
       return [
         {
+          year: "2026",
+          conference: "2026 European Edition of the International Workshop on the Circular Electron-Positron Collider (CEPC)", 
+          conferenceUrl: "https://indico.cern.ch/event/1598929/",
+          title: "Dual readout (fibers)"
+        },
+        {
           year: "2025",
           conference: "XXXI Cracow Epiphany Conference on the recent LHC Results",
           conferenceUrl: "https://epiphany.ifj.edu.pl/epiphany2025/index.html",
