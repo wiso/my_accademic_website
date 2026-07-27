@@ -314,6 +314,12 @@ figure {
     margin: 0;
 }
 
+.area header p.legend {
+    margin: 12px 0 0;
+    font-size: 14px;
+    color: #999;
+}
+
 .area a {
     color: var(--primary-color);
 }
@@ -409,7 +415,6 @@ figure {
     line-height: 1.35;
     font-weight: 600;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
     vertical-align: middle;
     color: inherit;
     background: transparent;
