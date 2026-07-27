@@ -1,0 +1,282 @@
+[
+  {
+    "year": "2026",
+    "student": "Carlo Bagatti",
+    "degree": "BT",
+    "title": "Improving electron to photon extrapolation using normalizing flows in ATLAS",
+    "url": ""
+  },
+  {
+    "year": "2026",
+    "student": "Giorgio Carrozzo",
+    "degree": "BT",
+    "title": "Studio della risposta agli elettroni del prototipo di calorimetro Dual-Readout HiDRa",
+    "url": ""
+  },
+  {
+    "year": "2026",
+    "student": "Matteo Luca Fava",
+    "degree": "BT",
+    "title": "Improving photon identification performance in ATLAS using neural networks",
+    "url": ""
+  },
+  {
+    "year": "2026",
+    "student": "Andrea Molinari",
+    "degree": "BT",
+    "title": "Studio della risposta ai pioni del prototipo di calorimetro dual-readout HiDRa",
+    "url": ""
+  },
+  {
+    "year": "2026",
+    "student": "Laura Nasella",
+    "degree": "PhD",
+    "title": "Probing the Higgs boson with the ATLAS detector: precision measurement of the mass and search for rare decays to a low-mass dilepton system and a photon in proton-proton collisions at the LHC.",
+    "url": ""
+  },
+  {
+    "year": "2026",
+    "student": "Eleonora Delfrate",
+    "degree": "BT",
+    "title": "Study of the response to electrons of the HiDRa dual-readout calorimeter prototype from 2024 Test Beam",
+    "url": ""
+  },
+  {
+    "year": "2025",
+    "student": "Federico Marletta",
+    "degree": "BT",
+    "title": "Misura del rapporto di efficienza di identificazione del fotone tra dati e simulazione Montecarlo per il Run2 dell’esperimento ATLAS ad LHC",
+    "url": ""
+  },
+  {
+    "year": "2025",
+    "student": "Giuseppe Morinelli",
+    "degree": "BT",
+    "title": "Reconstruction and identification of close-by e⁺e⁻ in the search for Higgs boson decays into a low-mass dilepton system and a photon final state",
+    "url": ""
+  },
+  {
+    "year": "2025",
+    "student": "Tommaso Cozzi",
+    "degree": "MT",
+    "title": "Search for Higgs boson pair production in the bb̄γγ final state with the ATLAS detector using Run 2 and Run 3 pp collision data",
+    "url": ""
+  },
+  {
+    "year": "2025",
+    "student": "Matteo Serraglia",
+    "degree": "BT",
+    "title": "Energy calibration for close by e e in the search for higgs boson into a low mass dilepton system and a photon",
+    "url": ""
+  },
+  {
+    "year": "2024",
+    "student": "Elena Mazzeo",
+    "degree": "PhD",
+    "title": "Shedding light on Higgs boson self-interactions in the bb ̄ γγ channel. Photon and b-jet calibrations, and searches for Higgs boson pairs with the ATLAS experiment.",
+    "url": "https://inspirehep.net/literature/2862826"
+  },
+  {
+    "year": "2024",
+    "student": "Simone Lancellotti",
+    "degree": "BT",
+    "title": "Riduzione del fondo dovuto a elettroni ricostruiti come fotoni nella ricerca di risonanze a bassa massa di coppie di fotoni con il rivelatore ATLAS per il Run 3",
+    "url": ""
+  },
+  {
+    "year": "2024",
+    "student": "Marta Cinci",
+    "degree": "MT",
+    "title": "Photon identification optimization for di-Higgs production search in the γγbb̄ final state with the ATLAS detector",
+    "url": "https://prodotti.dsi.infn.it/#/product/thesis/6643daeecf27aa3311769515"
+  },
+  {
+    "year": "2024",
+    "student": "Davide Riva",
+    "degree": "BT",
+    "title": "Selezione del vertice primario nelle collisioni pp del Run3 con il rivelatore di ATLAS di LHC",
+    "url": "https://prodotti.dsi.infn.it/#/product/thesis/669fcba600bac3059f18742d"
+  },
+  {
+    "year": "2023",
+    "student": "Stefano Bozzi",
+    "degree": "BT",
+    "title": "Detector simulation corrections using machine learning for photons identification with the ATLAS experiment",
+    "url": ""
+  },
+  {
+    "year": "2023",
+    "student": "Tommaso Gallanti",
+    "degree": "BT",
+    "title": "Algoritmi di calibrazione dell'energia di elettroni e fotoni per l'acquisizione dei dati Run3 dell'esperimento ATLAS.",
+    "url": "https://prodotti.dsi.infn.it/#/product/thesis/65e86408d70a367e2a17b4b8"
+  },
+  {
+    "year": "2023",
+    "student": "Elisa Breviglieri",
+    "degree": "BT",
+    "title": "Impact of improved photon energy calibration algorithms on the di-Higgs search in the bbγγ channel with the ATLAS detector",
+    "url": "https://prodotti.dsi.infn.it/#/product/thesis/65e8637da1f5b21b7053f5cd"
+  },
+  {
+    "year": "2023",
+    "student": "Giorgia Pisoni",
+    "degree": "BT",
+    "title": "Measurement of primary vertex identificaion efficiency in Run2 di-photon events with the ATLAS detector at the LHC",
+    "url": ""
+  },
+  {
+    "year": "2022",
+    "student": "Tommaso Cozzi",
+    "degree": "BT",
+    "title": "Improving electrons and photons ATLAS data to simulation agreement using machine learning techniques",
+    "url": ""
+  },
+  {
+    "year": "2022",
+    "student": "Sofia Cella",
+    "degree": "MT",
+    "title": "Measurement of inclusive isolated-photon cross section with the atlas detector using the Frixione isolation prescription",
+    "url": "https://pubblicazioni.dsi.infn.it/tesi/dettaglioTesi.php?tid=532333"
+  },
+  {
+    "year": "2022",
+    "student": "Davide Mungo",
+    "degree": "PhD",
+    "title": "Measurement of the SM Higgs boson properties in the diphoton decay channel with the ATLAS Run 2 dataset",
+    "url": "https://cds.cern.ch/record/2840788"
+  },
+  {
+    "year": "2021",
+    "student": "Elena Mazzeo",
+    "degree": "MT",
+    "title": "Search for Higgs boson pair production in the two photons plus two bottom quarks final state using Run2 pp collision data with the ATLAS detector.",
+    "url": "https://pubblicazioni.dsi.infn.it/tesi/dettaglioTesi.php?tid=531193"
+  },
+  {
+    "year": "2021",
+    "student": "Filippo Donarini",
+    "degree": "BT",
+    "title": "Optimization of the electron and photonenergy calibration with machine learning techniques for the atlas experiment run3 data taking",
+    "url": ""
+  },
+  {
+    "year": "2021",
+    "student": "Alessandro Zambon",
+    "degree": "BT",
+    "title": "Determination of the primary vertex in pp collisions with the ATLAS detector at the LHC using machine learning techniques",
+    "url": ""
+  },
+  {
+    "year": "2020",
+    "student": "Riccardo Brambilla",
+    "degree": "MT",
+    "title": "Measurement of the electron faking photon background searching for invisible Higgs decay in the VBF plus photon channel",
+    "url": ""
+  },
+  {
+    "year": "2020",
+    "student": "Valentino Rossi",
+    "degree": "MT",
+    "title": "Characterization of LGAD sensors for the High granularity timing detector in the ATLAS phase-II upgrade project",
+    "url": "http://www.infn.it/thesis/thesis_dettaglio.php?tid=528948"
+  },
+  {
+    "year": "2020",
+    "student": "Alessandro Demela",
+    "degree": "MT",
+    "title": "Optimization of the Higgs boson mass measurement in the diphoton channel with the ATLAS detector",
+    "url": ""
+  },
+  {
+    "year": "2020",
+    "student": "Martino Pulici",
+    "degree": "BT",
+    "title": "Improving suppression of the jets from pileup at high luminosity LHC using timing information from the High Granularity Timing Detector for ATLAS",
+    "url": ""
+  },
+  {
+    "year": "2020",
+    "student": "Pietro Daniele",
+    "degree": "BT",
+    "title": "A machine learning approach to the electron and photon classification with the ATLAS detector at the LHC",
+    "url": "http://www.infn.it/thesis/thesis_dettaglio.php?tid=529361"
+  },
+  {
+    "year": "2020",
+    "student": "Edoardo Tronconi",
+    "degree": "BT",
+    "title": "Electrons and Photons classification using machine learning techniques with the ATLAS detector at the LHC",
+    "url": ""
+  },
+  {
+    "year": "2020",
+    "student": "Mario Lamberti",
+    "degree": "MT",
+    "title": "Measurement of differential cross-sections for Higgs boson production in the decay channel at 13 TeV with the ATLAS experiment",
+    "url": "http://www.infn.it/thesis/thesis_dettaglio.php?tid=529318"
+  },
+  {
+    "year": "2019",
+    "student": "Eleonora Foschino",
+    "degree": "BT",
+    "title": "Photon Identification optimisation using machine learning techniques with the ATLAS detector at the LHC",
+    "url": "http://www.infn.it/thesis/thesis_dettaglio.php?tid=13844"
+  },
+  {
+    "year": "2019",
+    "student": "Andrea Visibile",
+    "degree": "BT",
+    "title": "Determination of the primary vertex in di-photon events with the ATLAS detector at the LHC",
+    "url": "http://www.infn.it/thesis/thesis_dettaglio.php?tid=13672"
+  },
+  {
+    "year": "2019",
+    "student": "Chiara Vitali",
+    "degree": "MT",
+    "title": "Measurements of diphoton differential cross sections in proton–proton collision at 13 TeV with the ATLAS detector at LHC",
+    "url": "http://www.infn.it/thesis/thesis_dettaglio.php?tid=13857"
+  },
+  {
+    "year": "2018",
+    "student": "Davide Mungo",
+    "degree": "MT",
+    "title": "Measurement of Higgs boson production cross sections in the diphoton decay channel with 80 fb⁻¹ of pp collision data collected by the ATLAS detector",
+    "url": "http://www.infn.it/thesis/thesis_dettaglio.php?tid=12856"
+  },
+  {
+    "year": "2018",
+    "student": "Luigi Favaro",
+    "degree": "BT",
+    "title": "Optimization of the energy calibration of electrons and photons at the ATLAS experiment with machine learning techniques",
+    "url": "http://www.infn.it/thesis/thesis_dettaglio.php?tid=12850"
+  },
+  {
+    "year": "2015",
+    "student": "Edoardo Lamperti",
+    "degree": "MT",
+    "title": "Misure di sezioni d’urto di stati finali con due fotoni e jets adronici in collisioni protone-protone all’esperimento ATLAS",
+    "url": "http://www.infn.it/thesis/thesis_dettaglio.php?tid=10151"
+  },
+  {
+    "year": "2014",
+    "student": "Marco Rimoldi",
+    "degree": "MT",
+    "title": "Higgs mass measurement in the di-photon decay channel with the ATLAS experiment",
+    "url": "https://cds.cern.ch/record/1711780"
+  },
+  {
+    "year": "2014",
+    "student": "Silvia Comotti",
+    "degree": "MT",
+    "title": "Measurement of the isolated photon plus jet cross section in pp collisions at a center-of-mass energy of 8 TeV with the ATLAS detector",
+    "url": "http://www.infn.it/thesis/thesis_dettaglio.php?tid=9130"
+  },
+  {
+    "year": "2014",
+    "student": "Andrea Poli",
+    "degree": "BT",
+    "title": "Tecniche di identificazione dei fotoni per il Run 2 all'esperimento ATLAS ad LHC",
+    "url": "http://www.infn.it/thesis/thesis_dettaglio.php?tid=10457"
+  }
+]

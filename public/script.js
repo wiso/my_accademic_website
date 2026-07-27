@@ -1,4 +1,5 @@
 const CONFERENCES_URL = "data/conferences.json";
+const THESES_URL = "data/theses.json";
 
 // Plain text if no url is given, a link otherwise
 function renderLabel(text, url) {
@@ -10,7 +11,7 @@ function renderLabel(text, url) {
   return element;
 }
 
-function renderTimelineItem(item) {
+function renderConference(item) {
   const timelineItem = document.createElement("div");
   timelineItem.className = "timeline-item";
 
@@ -34,22 +35,50 @@ function renderTimelineItem(item) {
   return timelineItem;
 }
 
-function renderTimeline(container, items) {
-  container.innerHTML = ""; // Clear existing content
-  items.forEach((item) => container.appendChild(renderTimelineItem(item)));
+function renderConferences(container, items) {
+  container.replaceChildren(...items.map(renderConference));
 }
 
-document.addEventListener("DOMContentLoaded", async function () {
-  const timelineContainer = document.querySelector(".timeline");
-  if (!timelineContainer) return;
+function renderThesis(item) {
+  const student = document.createElement("dt");
+  student.append(`${item.year} - ${item.student} `);
+
+  const badge = document.createElement("span");
+  badge.className = `degree-badge degree-badge-${item.degree.toLowerCase()}`;
+  badge.textContent = item.degree;
+  student.appendChild(badge);
+
+  const title = document.createElement("dd");
+  title.appendChild(renderLabel(item.title, item.url));
+
+  return [student, title];
+}
+
+function renderTheses(container, items) {
+  container.replaceChildren(...items.flatMap(renderThesis));
+}
+
+async function loadJson(url) {
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`${response.status} ${response.statusText}`);
+  }
+  return response.json();
+}
+
+// Fill a container with the items of a json file, if the container is on the page
+async function fillSection(selector, url, render) {
+  const container = document.querySelector(selector);
+  if (!container) return;
 
   try {
-    const response = await fetch(CONFERENCES_URL);
-    if (!response.ok) {
-      throw new Error(`${response.status} ${response.statusText}`);
-    }
-    renderTimeline(timelineContainer, await response.json());
+    render(container, await loadJson(url));
   } catch (error) {
-    console.error(`Cannot load ${CONFERENCES_URL}:`, error);
+    console.error(`Cannot load ${url}:`, error);
   }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  fillSection(".timeline", CONFERENCES_URL, renderConferences);
+  fillSection(".thesis-list", THESES_URL, renderTheses);
 });
