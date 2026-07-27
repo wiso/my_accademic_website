@@ -1,0 +1,13 @@
+#!/bin/sh
+# Refuse to commit if public/index.html is out of date with respect to public/data/*.json.
+# Enable it once per clone with: git config core.hooksPath hooks
+
+[ -f build.py ] || exit 0
+
+if python3 build.py --check; then
+    exit 0
+fi
+
+python3 build.py
+echo "public/index.html has been regenerated: check it, 'git add' it and commit again." >&2
+exit 1

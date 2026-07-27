@@ -1,5 +1,12 @@
 image: busybox
 
+# Fails if index.html was not regenerated after editing public/data/*.json
+check-generated-html:
+  stage: test
+  image: python:3.12-alpine
+  script:
+    - python3 build.py --check
+
 pages:
   stage: deploy
   script:
