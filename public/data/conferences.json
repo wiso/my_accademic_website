@@ -1,0 +1,93 @@
+[
+  {
+    "year": "2026",
+    "conference": "2026 European Edition of the International Workshop on the Circular Electron-Positron Collider (CEPC)",
+    "conferenceUrl": "https://indico.cern.ch/event/1598929/",
+    "title": "Dual readout (fibers)",
+    "titleUrl": "https://indico.cern.ch/event/1598929/timetable/?view=standard#104-dual-readout-fibers"
+  },
+  {
+    "year": "2025",
+    "conference": "XXXI Cracow Epiphany Conference on the recent LHC Results",
+    "conferenceUrl": "https://epiphany.ifj.edu.pl/epiphany2025/index.html",
+    "title": "ATLAS searches in the Higgs sector",
+    "titleUrl": "https://indico.cern.ch/event/1459306/contributions/6264193/"
+  },
+  {
+    "year": "2024",
+    "conference": "3rd ECFA workshop on e+e- Higgs, Top & ElectroWeak Factories",
+    "conferenceUrl": "https://indico.in2p3.fr/event/32629/",
+    "title": "Dual-Readout Fibre-Sampling Calorimeter for next lepton collider",
+    "titleUrl": "https://indico.in2p3.fr/event/32629/timetable/?view=standard#118-dual-readout-fibre-samplin"
+  },
+  {
+    "year": "2022",
+    "conference": "Higgs Hunting",
+    "conferenceUrl": "https://indico.ijclab.in2p3.fr/event/7779/",
+    "title": "H(125) bosonic decays in the ATLAS experiment",
+    "titleUrl": "https://indico.ijclab.in2p3.fr/event/7779/timetable/#27-h125-bosonic-decays-in-the"
+  },
+  {
+    "year": "2019",
+    "conference": "Workshop on Photon Physics and Simulation at Hadron Colliders",
+    "conferenceUrl": "",
+    "title": "Single Higgs (ATLAS+CMS)",
+    "titleUrl": "https://indico.cern.ch/event/783361/timetable/?view=standard#9-single-higgs-atlascms"
+  },
+  {
+    "year": "2019",
+    "conference": "Lake Louise Winter Institute",
+    "conferenceUrl": "https://www.ualberta.ca/physics/research/lake-louise-winter-institute",
+    "title": "Measurement of cross sections and properties of the Higgs boson in decays to bosons with the ATLAS experiment",
+    "titleUrl": "https://indico.cern.ch/event/760557/contributions/3262337/"
+  },
+  {
+    "year": "2017",
+    "conference": "EPS",
+    "conferenceUrl": "http://eps-hep2017.eu/",
+    "title": "Measurement of photon production cross sections with the ATLAS detector",
+    "titleUrl": "https://indico.cern.ch/event/466934/contributions/2571342/"
+  },
+  {
+    "year": "2016",
+    "conference": "Rencontres de Blois",
+    "conferenceUrl": "http://blois.in2p3.fr/2016/",
+    "title": "Searches for exotics at ATLAS",
+    "titleUrl": "https://indico.cern.ch/event/464174/contributions/2135860/"
+  },
+  {
+    "year": "2015",
+    "conference": "LFC15",
+    "conferenceUrl": "http://www.lnf.infn.it/conference/LFC15/index.php",
+    "title": "QCD at the LHC: status and prospects",
+    "titleUrl": "https://agenda.infn.it/contributionDisplay.py?contribId=34&confId=10047"
+  },
+  {
+    "year": "2014",
+    "conference": "Higgs Couplings",
+    "conferenceUrl": "https://indico.cern.ch/event/297759/",
+    "title": "Measurent of the Higgs boson mass (ATLAS and CMS)",
+    "titleUrl": "https://indico.cern.ch/event/297759/contributions/679008/"
+  },
+  {
+    "year": "2012",
+    "conference": "IFAE",
+    "conferenceUrl": "https://agenda.infn.it/conferenceDisplay.py?confId=4251",
+    "title": "Search for the SM Higgs boson in the diphoton decay channel with ATLAS",
+    "titleUrl": "http://dx.doi.org/10.1393/ncc/i2013-11470-1"
+  },
+  {
+    "year": "2012",
+    "conference": "Rencontres du Vietnam",
+    "conferenceUrl": "http://confs.obspm.fr/RencontresVietnam/index.htm",
+    "title": "Search for the Standard Model Higgs Boson in the decay mode H →γγ with ATLAS",
+    "titleUrl": "https://cds.cern.ch/record/1497165/"
+  },
+  {
+    "year": "2011",
+    "conference": "Physics at LHC",
+    "conferenceUrl": "http://www.pg.infn.it/plhc2011/",
+    "title": "Measurements of isolated prompt photons in pp collisions with the ATLAS detector",
+    "titleUrl": "https://cds.cern.ch/record/1390418"
+  }
+]
