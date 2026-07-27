@@ -1,5 +1,7 @@
 :root {
     --primary-color: #3cc;
+    /* darker variant of the primary color, for text: #3cc has too little contrast on white */
+    --primary-text-color: #177f7d;
     --secondary-color: #222;
     --font-family: 'Helvetica', 'Arial', sans-serif;
 }
@@ -182,6 +184,9 @@ figure {
 
 .logo-box h1 {
     font: 112px/116px BebasNeue, Helvetica, sans-serif;
+    /* shrink with the viewport: at 112px the name is 579px wide and overflows small screens */
+    font-size: clamp(48px, 17vw, 112px);
+    line-height: 1.04;
     text-transform: uppercase;
     text-align: center;
     display: block;
@@ -317,11 +322,11 @@ figure {
 .area header p.legend {
     margin: 12px 0 0;
     font-size: 14px;
-    color: #999;
+    color: #767676;
 }
 
 .area a {
-    color: var(--primary-color);
+    color: var(--primary-text-color);
 }
 
 .area a:hover {
@@ -566,7 +571,31 @@ figure {
 #footer .holder {
     max-width: 830px;
     margin: 0 auto;
-    display: inline-block;
+}
+
+/* the credit line ends with a long url: let it break instead of overflowing */
+#footer .credit {
+    overflow-wrap: anywhere;
+}
+
+#footer .profiles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px 32px;
+    margin: 0 0 46px;
+    font: 20px/24px BebasNeue, Helvetica, sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+#footer .profiles a {
+    color: var(--primary-color);
+}
+
+#footer .profiles a:hover {
+    color: #6ef9f9;
+    text-decoration: underline;
 }
 
 #footer .importantly-box {
@@ -770,12 +799,14 @@ figure {
 #social ul {
     list-style: none;
     padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #social li {
-    float: left;
     padding: 0px;
-    padding-right: 0px;
     border: 0px;
     margin: 0px;
 }
