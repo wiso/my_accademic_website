@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
           year: "2026",
           conference: "2026 European Edition of the International Workshop on the Circular Electron-Positron Collider (CEPC)", 
           conferenceUrl: "https://indico.cern.ch/event/1598929/",
-          title: "Dual readout (fibers)"
+          title: "<a href='https://indico.cern.ch/event/1598929/timetable/?view=standard#104-dual-readout-fibers'>Dual readout (fibers)</a>"
         },
         {
           year: "2025",
