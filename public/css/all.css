@@ -380,7 +380,9 @@ figure {
 
 
 .thesis-list {
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: fit-content(300px) minmax(0, 1fr);
+    align-items: start;
     margin: -20px 0 43px;
     border-bottom: 1px solid #e3e2e2;
 }
@@ -390,11 +392,10 @@ figure {
 }
 
 .thesis-list dt {
-    float: left;
+    grid-column: 1;
     border-top: 1px solid #e3e2e2;
     font-size: 18px;
     line-height: 28px;
-    width: 250px;
     padding: 15px 10px 14px 15px;
 }
 
@@ -430,11 +431,10 @@ figure {
 }
 
 .thesis-list dd {
+    grid-column: 2;
     border-top: 1px solid #e3e2e2;
-    display: block;
-    overflow: hidden;
     margin: 0;
-    padding: 15px 0 14px;
+    padding: 18px 0 14px;
     color: rgb(196, 4, 4);
     font: 16px/20px Helvetica, sans-serif;
 }
@@ -679,6 +679,7 @@ figure {
     }
 
     .thesis-list {
+        grid-template-columns: minmax(0, 1fr);
         border: none;
         padding: 1px 0 0;
         margin: -16px 0 64px;
@@ -686,14 +687,14 @@ figure {
     }
 
     .thesis-list dt {
-        width: 100%;
+        grid-column: 1;
         text-align: center;
         padding: 15px 0 0;
         margin: -1px 0 0;
-        float: none;
     }
 
     .thesis-list dd {
+        grid-column: 1;
         border: 1px solid #e3e2e2;
         border-width: 0 0 1px;
         padding: 0 0 15px;
