@@ -1,6 +1,13 @@
 [
   {
     "year": "2026",
+    "student": "Daniele Seghezzi",
+    "degree": "MT",
+    "title": "Study of the response to electrons of a capillary-tubes dual-readout calorimeter module",
+    "url": ""
+  },
+  {
+    "year": "2026",
     "student": "Carlo Bagatti",
     "degree": "BT",
     "title": "Improving electron to photon extrapolation using normalizing flows in ATLAS",
