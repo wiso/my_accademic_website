@@ -1,4 +1,25 @@
 [
+    {
+        "year": "2026",
+        "student": "Matteo Andrisani",
+        "degree": "BT",
+        "title": "Enhancing photons simulation accuracy in ATLAS using normalizing flow",
+        "url": ""
+    },
+    {
+        "year": "2026",
+        "student": "Lorenzo Mainardi",
+        "degree": "BT",
+        "title": "Calibration of the photon identification efficiency algorithms of the ATLAS experiment in Run3 proton-proton collisions at the LHC",
+        "url": ""
+    },
+    {
+        "year": "2026",
+        "student": "Tommaso Mattia",
+        "degree": "BT",
+        "title": "Validation of the simulation of the Hidra dual readout calorimeter propotype response to positrons",
+        "url": ""
+    },   
   {
     "year": "2026",
     "student": "Daniele Seghezzi",
