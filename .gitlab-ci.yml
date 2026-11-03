@@ -1,9 +1,11 @@
-image: busybox
+# CERN runners cannot pull from docker.io: the Kubernetes policy only allows
+# internal registries, and anonymous Docker Hub pulls hit HTTP 429.
+# gitlab-registry.cern.ch/linuxsupport images are public and ship python3.
+image: gitlab-registry.cern.ch/linuxsupport/alma10-base:10
 
 # Fails if index.html was not regenerated after editing public/data/*.json
 check-generated-html:
   stage: test
-  image: python:3.12-alpine
   script:
     - python3 build.py --check
 
